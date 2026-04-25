@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Hidayah Pharma - Center of Excellence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="https://wa.me/6282117232476" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Tanya Kami</span>
+    </a>
+
+    <header>
+        <nav>
+            <div class="logo"><i class="fas fa-hand-holding-medical"></i> Al-Hidayah Pharma</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#kurikulum">Kurikulum</a></li>
+                <li><a href="#kegiatan">Aktivitas</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#kontak" class="nav-btn">Daftar Sekarang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">Terakreditasi A - Unggul</span>
+            <h1>Masa Depan Ahli Farmasi <br><span>Dimulai di Sini</span></h1>
+            <p>Mencetak tenaga teknis kefarmasian yang berkarakter, kompeten, dan siap kerja di industri kesehatan global.</p>
+            <div class="hero-btns">
+                <a href="#kontak" class="btn-main">Mulai Belajar</a>
+                <a href="#kegiatan" class="btn-sub">Eksplor Aktivitas</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="kurikulum" class="py-section">
+        <h2 class="section-title">Program Pembelajaran Terpadu</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-book-medical"></i></div>
+                <h3>Tahun 1: Fondasi</h3>
+                <ul>
+                    <li>Ilmu Resep Dasar</li>
+                    <li>Farmakognosi</li>
+                    <li>Etika Profesi</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-flask"></i></div>
+                <h3>Tahun 2: Klinis</h3>
+                <ul>
+                    <li>Kimia Farmasi</li>
+                    <li>Farmakologi</li>
+                    <li>Teknologi Sediaan</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-user-md"></i></div>
+                <h3>Tahun 3: Karir</h3>
+                <ul>
+                    <li>Administrasi Farmasi</li>
+                    <li>Praktek Kerja (PKL)</li>
+                    <li>Simulasi UKom</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="kegiatan" class="py-section bg-light">
+        <h2 class="section-title">Aktivitas & Galeri</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=500" alt="Lab"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1579165466541-713224281655?w=500" alt="Med"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1587854692152-cbe660dbbb88?w=500" alt="Pills"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?w=500" alt="Hospital"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?w=500" alt="Store"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1631549916768-4119b295f946?w=500" alt="Factory"></div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-section">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Lokasi Sekolah</h4>
+                        <p>Kp. Pamokolan, Bunijaya, Kec. Gununghalu, Bandung Barat</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email Resmi</h4>
+                        <p>info@alhidayahpharma.sch.id</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Call Center</h4>
+                        <p>082117232476</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form" name="submit-to-google-sheet">
+                <h3>Kirim Pesan Cepat</h3>
+                <input type="text" name="Nama" placeholder="Nama Lengkap" required>
+                <input type="email" name="Email" placeholder="Email Aktif" required>
+                <textarea name="Pesan" placeholder="Pesan Anda..." rows="5" required></textarea>
+                <button type="submit" class="btn-main" id="btn-kirim">Kirim Sekarang</button>
+                <p id="msg-status" style="margin-top:15px; font-weight: bold;"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Al-Hidayah Pharma. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
